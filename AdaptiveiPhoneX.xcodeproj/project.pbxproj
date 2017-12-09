@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABA5E9ED4DED9174ED25D0B /* Pods_AdaptiveiPhoneX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BE37B68B92C844D5A9F19C /* Pods_AdaptiveiPhoneX.framework */; };
+		DE87FEFA1FDBEE99001DD052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87FEF91FDBEE99001DD052 /* AppDelegate.m */; };
+		DE87FEFD1FDBEE99001DD052 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87FEFC1FDBEE99001DD052 /* FirstViewController.m */; };
+		DE87FF001FDBEE99001DD052 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87FEFF1FDBEE99001DD052 /* SecondViewController.m */; };
+		DE87FF031FDBEE99001DD052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE87FF011FDBEE99001DD052 /* Main.storyboard */; };
+		DE87FF051FDBEE99001DD052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE87FF041FDBEE99001DD052 /* Assets.xcassets */; };
+		DE87FF081FDBEE99001DD052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE87FF061FDBEE99001DD052 /* LaunchScreen.storyboard */; };
+		DE87FF0B1FDBEE99001DD052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87FF0A1FDBEE99001DD052 /* main.m */; };
+		DE87FF141FDBF9E9001DD052 /* MMONavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87FF131FDBF9E9001DD052 /* MMONavigationBar.m */; };
+		DE87FF161FDC0033001DD052 /* MMOBaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE87FF151FDC0033001DD052 /* MMOBaseView.xib */; };
+		DE87FF191FDC008F001DD052 /* MMOBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87FF181FDC008F001DD052 /* MMOBaseView.m */; };
+		DE87FF1C1FDC05FA001DD052 /* PDSIBDesignABLEView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87FF1A1FDC05FA001DD052 /* PDSIBDesignABLEView.m */; };
+		DE87FF1D1FDC0ABB001DD052 /* MMONavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE87FF111FDBF9E8001DD052 /* MMONavigationBar.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CC95322923AC09A1A3C04A1 /* Pods-AdaptiveiPhoneX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveiPhoneX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdaptiveiPhoneX/Pods-AdaptiveiPhoneX.debug.xcconfig"; sourceTree = "<group>"; };
+		C7BE37B68B92C844D5A9F19C /* Pods_AdaptiveiPhoneX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdaptiveiPhoneX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE87FEF51FDBEE99001DD052 /* AdaptiveiPhoneX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveiPhoneX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE87FEF81FDBEE99001DD052 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE87FEF91FDBEE99001DD052 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE87FEFB1FDBEE99001DD052 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DE87FEFC1FDBEE99001DD052 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DE87FEFE1FDBEE99001DD052 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DE87FEFF1FDBEE99001DD052 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DE87FF021FDBEE99001DD052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE87FF041FDBEE99001DD052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE87FF071FDBEE99001DD052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE87FF091FDBEE99001DD052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE87FF0A1FDBEE99001DD052 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE87FF111FDBF9E8001DD052 /* MMONavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMONavigationBar.xib; sourceTree = "<group>"; };
+		DE87FF121FDBF9E9001DD052 /* MMONavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMONavigationBar.h; sourceTree = "<group>"; };
+		DE87FF131FDBF9E9001DD052 /* MMONavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMONavigationBar.m; sourceTree = "<group>"; };
+		DE87FF151FDC0033001DD052 /* MMOBaseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMOBaseView.xib; sourceTree = "<group>"; };
+		DE87FF171FDC008F001DD052 /* MMOBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMOBaseView.h; sourceTree = "<group>"; };
+		DE87FF181FDC008F001DD052 /* MMOBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMOBaseView.m; sourceTree = "<group>"; };
+		DE87FF1A1FDC05FA001DD052 /* PDSIBDesignABLEView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDSIBDesignABLEView.m; sourceTree = "<group>"; };
+		DE87FF1B1FDC05FA001DD052 /* PDSIBDesignABLEView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDSIBDesignABLEView.h; sourceTree = "<group>"; };
+		FDA3CCF9AD302D283FD2996E /* Pods-AdaptiveiPhoneX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveiPhoneX.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdaptiveiPhoneX/Pods-AdaptiveiPhoneX.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE87FEF21FDBEE99001DD052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABA5E9ED4DED9174ED25D0B /* Pods_AdaptiveiPhoneX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA8267FC3526C53EC4BBE69F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7BE37B68B92C844D5A9F19C /* Pods_AdaptiveiPhoneX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE87FEEC1FDBEE99001DD052 = {
+			isa = PBXGroup;
+			children = (
+				DE87FEF71FDBEE99001DD052 /* AdaptiveiPhoneX */,
+				DE87FEF61FDBEE99001DD052 /* Products */,
+				E0324DB9DA5F8C77C1378B5C /* Pods */,
+				CA8267FC3526C53EC4BBE69F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE87FEF61FDBEE99001DD052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE87FEF51FDBEE99001DD052 /* AdaptiveiPhoneX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE87FEF71FDBEE99001DD052 /* AdaptiveiPhoneX */ = {
+			isa = PBXGroup;
+			children = (
+				DE87FF121FDBF9E9001DD052 /* MMONavigationBar.h */,
+				DE87FF131FDBF9E9001DD052 /* MMONavigationBar.m */,
+				DE87FF111FDBF9E8001DD052 /* MMONavigationBar.xib */,
+				DE87FEF81FDBEE99001DD052 /* AppDelegate.h */,
+				DE87FEF91FDBEE99001DD052 /* AppDelegate.m */,
+				DE87FEFB1FDBEE99001DD052 /* FirstViewController.h */,
+				DE87FEFC1FDBEE99001DD052 /* FirstViewController.m */,
+				DE87FEFE1FDBEE99001DD052 /* SecondViewController.h */,
+				DE87FEFF1FDBEE99001DD052 /* SecondViewController.m */,
+				DE87FF011FDBEE99001DD052 /* Main.storyboard */,
+				DE87FF041FDBEE99001DD052 /* Assets.xcassets */,
+				DE87FF061FDBEE99001DD052 /* LaunchScreen.storyboard */,
+				DE87FF091FDBEE99001DD052 /* Info.plist */,
+				DE87FF0A1FDBEE99001DD052 /* main.m */,
+				DE87FF171FDC008F001DD052 /* MMOBaseView.h */,
+				DE87FF181FDC008F001DD052 /* MMOBaseView.m */,
+				DE87FF151FDC0033001DD052 /* MMOBaseView.xib */,
+				DE87FF1B1FDC05FA001DD052 /* PDSIBDesignABLEView.h */,
+				DE87FF1A1FDC05FA001DD052 /* PDSIBDesignABLEView.m */,
+			);
+			path = AdaptiveiPhoneX;
+			sourceTree = "<group>";
+		};
+		E0324DB9DA5F8C77C1378B5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CC95322923AC09A1A3C04A1 /* Pods-AdaptiveiPhoneX.debug.xcconfig */,
+				FDA3CCF9AD302D283FD2996E /* Pods-AdaptiveiPhoneX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE87FEF41FDBEE99001DD052 /* AdaptiveiPhoneX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE87FF0E1FDBEE99001DD052 /* Build configuration list for PBXNativeTarget "AdaptiveiPhoneX" */;
+			buildPhases = (
+				A0FC07A2ECFEA57941FBF1F7 /* [CP] Check Pods Manifest.lock */,
+				DE87FEF11FDBEE99001DD052 /* Sources */,
+				DE87FEF21FDBEE99001DD052 /* Frameworks */,
+				DE87FEF31FDBEE99001DD052 /* Resources */,
+				35B36398249A35DA1023990A /* [CP] Embed Pods Frameworks */,
+				C1D9C347059840E6F2AA265A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdaptiveiPhoneX;
+			productName = AdaptiveiPhoneX;
+			productReference = DE87FEF51FDBEE99001DD052 /* AdaptiveiPhoneX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE87FEED1FDBEE99001DD052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = jerryliao;
+				TargetAttributes = {
+					DE87FEF41FDBEE99001DD052 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE87FEF01FDBEE99001DD052 /* Build configuration list for PBXProject "AdaptiveiPhoneX" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE87FEEC1FDBEE99001DD052;
+			productRefGroup = DE87FEF61FDBEE99001DD052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE87FEF41FDBEE99001DD052 /* AdaptiveiPhoneX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE87FEF31FDBEE99001DD052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE87FF081FDBEE99001DD052 /* LaunchScreen.storyboard in Resources */,
+				DE87FF051FDBEE99001DD052 /* Assets.xcassets in Resources */,
+				DE87FF031FDBEE99001DD052 /* Main.storyboard in Resources */,
+				DE87FF1D1FDC0ABB001DD052 /* MMONavigationBar.xib in Resources */,
+				DE87FF161FDC0033001DD052 /* MMOBaseView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B36398249A35DA1023990A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AdaptiveiPhoneX/Pods-AdaptiveiPhoneX-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdaptiveiPhoneX/Pods-AdaptiveiPhoneX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FC07A2ECFEA57941FBF1F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdaptiveiPhoneX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D9C347059840E6F2AA265A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdaptiveiPhoneX/Pods-AdaptiveiPhoneX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE87FEF11FDBEE99001DD052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE87FF001FDBEE99001DD052 /* SecondViewController.m in Sources */,
+				DE87FF191FDC008F001DD052 /* MMOBaseView.m in Sources */,
+				DE87FEFA1FDBEE99001DD052 /* AppDelegate.m in Sources */,
+				DE87FF0B1FDBEE99001DD052 /* main.m in Sources */,
+				DE87FF1C1FDC05FA001DD052 /* PDSIBDesignABLEView.m in Sources */,
+				DE87FEFD1FDBEE99001DD052 /* FirstViewController.m in Sources */,
+				DE87FF141FDBF9E9001DD052 /* MMONavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE87FF011FDBEE99001DD052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE87FF021FDBEE99001DD052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE87FF061FDBEE99001DD052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE87FF071FDBEE99001DD052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE87FF0C1FDBEE99001DD052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE87FF0D1FDBEE99001DD052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE87FF0F1FDBEE99001DD052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC95322923AC09A1A3C04A1 /* Pods-AdaptiveiPhoneX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q95229Y3N9;
+				INFOPLIST_FILE = AdaptiveiPhoneX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryliao.AdaptiveiPhoneX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE87FF101FDBEE99001DD052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA3CCF9AD302D283FD2996E /* Pods-AdaptiveiPhoneX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q95229Y3N9;
+				INFOPLIST_FILE = AdaptiveiPhoneX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryliao.AdaptiveiPhoneX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE87FEF01FDBEE99001DD052 /* Build configuration list for PBXProject "AdaptiveiPhoneX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE87FF0C1FDBEE99001DD052 /* Debug */,
+				DE87FF0D1FDBEE99001DD052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE87FF0E1FDBEE99001DD052 /* Build configuration list for PBXNativeTarget "AdaptiveiPhoneX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE87FF0F1FDBEE99001DD052 /* Debug */,
+				DE87FF101FDBEE99001DD052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE87FEED1FDBEE99001DD052 /* Project object */;
+}
